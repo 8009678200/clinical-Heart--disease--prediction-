@@ -37,7 +37,7 @@ def load_model():
     """Load the trained model (placeholder - replace with actual model path)"""
     # Replace this with your actual model loading logic
     try:
-        model = joblib.load('model/heart_disease_model.pkl')
+        model = joblib.load('heart_disease_model.pkl')
         return model
     except FileNotFoundError:
         st.warning("Model file not found. Using demo mode.")
