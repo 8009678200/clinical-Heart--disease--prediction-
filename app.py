@@ -2,7 +2,7 @@
 Clinical Heart Disease Prediction Application
 A Streamlit-based machine learning application for heart disease prediction.
 """
-
+import xgboost
 import streamlit as st
 import pandas as pd
 import numpy as np
